@@ -1,0 +1,332 @@
+/* geral */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.title {
+    font-family: 'Bebas Neue', serif;
+    color: rgb(220, 43, 226);
+}
+
+.bi {
+    color: rgb(220, 43, 226);
+    display: inline;
+}
+
+.container {
+    width: 90vw;
+}
+
+/* header */
+
+header {
+    background-color: white;
+}
+
+header img,
+button {
+    width: 80px;
+    height: 80px;
+}
+
+.nav-link {
+    color: black;
+    background-color: rgb(239, 239, 239);
+}
+
+.nav-link:hover {
+    background-color: rgb(195, 195, 195);
+    color: black;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: rgb(220, 43, 226);
+    color: white;
+}
+
+/* noticias */
+
+.carousel-item a,
+#contato button {
+    background-color: rgb(220, 43, 226);
+    color: white;
+}
+
+.carousel-item a:hover,
+.carousel-item a:active {
+    background-color: rgb(127, 25, 131);
+    color: white;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 20%;
+    background-color: rgb(247, 247, 247, 0.3);
+    border-radius: 30%;
+}
+
+.carousel-control-prev {
+    left: 3%;
+}
+
+.carousel-control-next {
+    right: 3%;
+}
+
+#carousel-noticias .carousel-item img {
+    max-height: 208px;
+    height: 100%;
+}
+
+#menu ul {
+    display: block;
+}
+
+/* contato */
+
+.bi-check-circle-fill {
+    font-size: 20px;
+}
+
+#contato #redes-sociais li .bi {
+    font-size: 40px;
+}
+
+#contato ul li a {
+    text-decoration: none;
+}
+
+#contato ul li {
+    list-style: none;
+}
+
+#contato-lista i {
+    font-size: 18px;
+}
+
+#contato button {
+    height: 40px;
+}
+
+#redes-sociais {
+    justify-content: start;
+    padding: 0;
+    font-size: 5rem;
+}
+
+/* footer */
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    padding: 8px;
+}
+
+@media (min-width: 768px) {
+
+    /* header */
+
+    header img,
+    button {
+    width: 120px;
+    height: 120px;
+    }
+
+    .nav-link {
+        font-size: 1.5em;
+    }
+
+    /* sobre */
+
+    #sobre h1,
+    #noticias h1,
+    #produtos h1,
+    #contato h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    /* noticias */
+
+    #carousel-noticias .carousel-item img {
+        max-height: 415px;
+        height: 100%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+    top: 30%;
+    background-color: rgb(247, 247, 247, 0.3);
+    border-radius: 30%;
+    }
+
+    #noticias p {
+        font-size: 1.8rem;
+    }
+
+    #noticias a,
+    #produtos a,
+    #contato button {
+        font-size: 1.5rem;
+    }
+
+    /* produtos */
+
+    #produtos h2 {
+        font-size: 2rem;
+    }
+
+    #produtos h4 {
+        font-size: 1.5rem;
+    }
+
+
+    /* contato */
+
+    #contato label {
+        font-size: 1.5rem;
+    }
+
+    #contato button {
+        height: 50px;
+    }
+
+    #contato h4 {
+        font-size: 1.8rem;
+    }
+
+    #contato ul li {
+        font-size: 1.8rem;
+    }
+
+    #redes-sociais {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #contato #redes-sociais li .bi {
+        font-size: 60px;
+    }
+
+    #contato-lista i {
+        font-size: 25px;
+    }
+
+    /* footer */
+
+    footer {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* header */
+
+    header  img {
+        height: 140px;
+        width: 140px;
+    }
+
+    header ul li {
+        font-size: 1.2rem;
+    }
+
+    #menu ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menu {
+        justify-content: end;
+    }
+
+    .nav-link {
+        color: black;
+        background-color: white;
+    }
+    
+    .nav-link:hover {
+        background-color: white;
+        color: rgb(220, 43, 226);
+    }
+
+    /* sobre */
+
+    #sobre {
+        margin-top: 100px;
+    }
+
+    #sobre h1,
+    #noticias h1,
+    #produtos h1,
+    #contato h1 {
+        font-size: 3rem;
+    }
+
+    #sobre p {
+        font-size: 1.6rem;
+    }
+
+    #sobre img {
+        max-height: 450px;
+    }
+
+    /* noticias */
+
+    #carousel-noticias .carousel-item img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    } 
+
+    #carousel-noticias .carousel-item {
+        min-height: 300px;
+    }
+
+    #noticias p {
+        font-size: 1.6rem;
+    }
+
+    #noticias a,
+    #produtos a,
+    #contato button {
+        font-size: 1.5rem;
+    }
+
+    /* produtos */
+
+    #produtos h2 {
+        font-size: 2rem;
+    }
+
+    #produtos h4 {
+        font-size: 1.5rem;
+    }
+
+    /* contato */
+
+    #contato label {
+        font-size: 1.5rem;
+    }
+
+    #contato button {
+        height: 60px;
+    }
+
+    #contato h4 {
+        font-size: 2rem;
+    }
+
+    #contato ul li {
+        font-size: 2rem;
+    }
+}

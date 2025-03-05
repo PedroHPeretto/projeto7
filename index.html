@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esports.com</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg mb-5 pt-3 sticky-top">
+        <div class="container">
+            <img class="rounded" src="./content/Logo.jpg">
+            <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav id="menu" class="navbar-collapse collapse">
+                <ul class="nav nav-pills text-center">
+                    <li class="nav-item mt-3 mt-lg-1 mb-1">
+                        <a class="nav-link fw-bold" href="#sobre">Sobre nós</a>
+                    </li>
+                    <li class="nav-item mt-1 mb-1">
+                        <a class="nav-link fw-bold" href="#noticias">Notícias</a>
+                    </li>
+                    <li class="nav-item mt-1 mb-1">
+                        <a class="nav-link fw-bold" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item mt-1 mb-1">
+                        <a class="nav-link fw-bold" href="#contato">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre" class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <h1 class="title text-center mb-4">
+                        <i class="bi bi-house-fill"></i>
+                        Sobre nós
+                    </h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-7">
+                        <img class="rounded d-block w-100 mb-3 mb-md-0 mb-lg-0" src="./content/Foto da loja.jpg" alt="Foto da loja">
+                    </div>
+                    <div class="col-sm-12 col-md-5">
+                        <p class="w-100 m-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum saepe officia suscipit voluptatem laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, facilis ipsum eos mollitia, esse, laboriosam dolor non porro nemo in totam aliquid. Placeat fuga ipsa laudantium necessitatibus quisquam nobis temporibus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="noticias" class="pb-4 pt-4">
+            <div class="container">
+                <div class="row">
+                    <h1 class="title text-center mb-4">
+                        <i class="bi bi-newspaper"></i>
+                        Notícias esportivas
+                    </h1>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div id="carousel-noticias1" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                    <img class="d-block w-100 rounded mb-2" src="./content/Foto noticias futebol.jpg" alt="Foto Yuri Alberto">
+                                    <p class="text-center">
+                                        Yuri Alberto brilha no final, Corinthians supera sufoco e se classifica na Libertadores
+                                    </p>
+                                    <a class="btn fw-bold mb-2 w-100" href="https://www.terra.com.br/esportes/corinthians/yuri-alberto-brilha-no-final-corinthians-supera-sufoco-e-se-classifica-na-libertadores,eff4c951cb5a0c8c4d4726da9a808d28kypv9mmf.html">
+                                        Leia mais
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img class="d-block w-100 rounded mb-2" src="./content/Foto noticias basquete.jpg" alt="Foto Anthony Davis">
+                                    <p class="text-center">
+                                        "Eu não acredito nisso": Anthony Davis não poupa palavras para criticar o Lakers após troca
+                                    </p>
+                                    <a class="btn fw-bold mb-2 w-100" href="https://lakersbrasil.com/site/noticias/2025/02/_eu_nao_acredito_nisso_anthony_davis_nao_poupa_palavras_para_criticar_o_lakers_apos_troca/">
+                                        Leia mais
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-noticias1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-noticias1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div id="carousel-noticias2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                    <img class="d-block w-100 rounded mb-2" src="./content/Foto noticias volei.jpg" alt="Foto jogo de vôlei">
+                                    <p class="text-center">
+                                        Sesi-Bauru e Minas fazem confronto direto pela vice-liderança da Superliga Feminina
+                                    </p>
+                                    <a class="btn fw-bold mb-2 w-100" href="https://ge.globo.com/sp/tem-esporte/volei/noticia/2025/02/27/sesi-bauru-e-minas-fazem-confronto-direto-pela-vice-lideranca-da-superliga-feminina.ghtml">
+                                        Leia mais
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img class="d-block w-100 rounded mb-2" src="./content/Foto noticias tenis.jpg" alt="Foto Guto">
+                                    <p class="text-center">
+                                        Guto e Bonini vão às oitavas do Banana Bowl, Victória vence batalha de 4h
+                                    </p>
+                                    <a class="btn fw-bold mb-2 w-100" href="https://tenisbrasil.uol.com.br/guto-e-bonini-vao-as-oitavas-do-banana-bowl-victoria-vence-batalha-de-4h.html">
+                                        Leia mais
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-noticias2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-noticias2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pb-4 pt-4">
+            <div class="container">
+                <div class="row">
+                    <h1 class="title text-center mb-4">
+                        <i class="bi bi-shop"></i>
+                        Nossos produtos
+                    </h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-5">
+                        <h2 class="text-center fw-bold">Tênis</h2>
+                        <div id="carousel-tenis" class="col-12 carousel-slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Tenis 1.jpg" alt="Tenis 1">
+                                    <h4 class="mt-3 fw-bold">Tênis 1</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Tenis 2.jpg" alt="Tenis 2">
+                                    <h4 class="mt-3 fw-bold">Tênis 2</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Tenis 3.jpg" alt="Tenis 3">
+                                    <h4 class="mt-3 fw-bold">Tênis 3</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Tenis 4.jpg" alt="Tenis 4">
+                                    <h4 class="mt-3 fw-bold">Tênis 4</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Tenis 5.jpg" alt="Tenis 5">
+                                    <h4 class="mt-3 fw-bold">Tênis 5</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Tenis 6.jpg" alt="Tenis 6">
+                                    <h4 class="mt-3 fw-bold">Tênis 6</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Tenis 7.jpg" alt="Tenis 7">
+                                    <h4 class="mt-3 fw-bold">Tênis 7</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-5">
+                        <h2 class="text-center h2 fw-bold">Roupas</h2>
+                        <div id="carousel-roupas" class="col-12 carousel-slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Modelo 1.jpg" alt="Roupa 1">
+                                    <h4 class="mt-3 fw-bold">Roupa 1</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Modelo 2.jpg" alt="Roupa 2">
+                                    <h4 class="mt-3 fw-bold">Roupa 2</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Modelo 3.jpg" alt="Roupa 3">
+                                    <h4 class="mt-3 fw-bold">Roupa 3</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Modelo 4.jpg" alt="Roupa 4">
+                                    <h4 class="mt-3 fw-bold">Roupa 4</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Modelo 5.jpg" alt="Roupa 5">
+                                    <h4 class="mt-3 fw-bold">Roupa 5</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Modelo 6.jpg" alt="Roupa 6">
+                                    <h4 class="mt-3 fw-bold">Roupa 6</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-5">
+                        <h2 class="text-center h2 fw-bold">Bicicletas</h2>
+                        <div id="carousel-bikes" class="col-12 carousel-slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Bike 1.jpeg" alt="Bicicleta 1">
+                                    <h4 class="mt-3 fw-bold">Bicicleta 1</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Bike 2.jpeg" alt="Bicicleta 2">
+                                    <h4 class="mt-3 fw-bold">Bicicleta 2</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Bike 3.jpeg" alt="Bicicleta 3">
+                                    <h4 class="mt-3 fw-bold">Bicicleta 3</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Bike 4.jpeg" alt="Bicicleta 4">
+                                    <h4 class="mt-3 fw-bold">Bicicleta 4</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-5">
+                        <h2 class="text-center h2 fw-bold">Bolas</h2>
+                        <div id="carousel-bolas" class="col-12 carousel-slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Bola basquete 1.jpg" alt="Bola 1">
+                                    <h4 class="mt-3 fw-bold">Bola de basquete 1</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Bola basquete 2.jpg" alt="Bola 2">
+                                    <h4 class="mt-3 fw-bold">Bola de basquete 2</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Bola futebol 1.jpg" alt="Bola 3">
+                                    <h4 class="mt-3 fw-bold">Bola de futebol 1</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Bola futebol 2.jpg" alt="Bola 4">
+                                    <h4 class="mt-3 fw-bold">Bola de futebol 2</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Bola volei 1.jpg" alt="Bola 5">
+                                    <h4 class="mt-3 fw-bold">Bola de vôlei 1</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Bola volei 2.jpg" alt="Bola 6">
+                                    <h4 class="mt-3 fw-bold">Bola de vôlei 2</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-5">
+                        <h2 class="text-center h2 fw-bold">Raquetes</h2>
+                        <div id="carousel-raquetes" class="col-12 carousel-slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Raquete tenis 1.jpg" alt="Raquete 1">
+                                    <h4 class="mt-3 fw-bold">Raquete tênis de mesa 1</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Raquete tenis 2.jpg" alt="Raquete 2">
+                                    <h4 class="mt-3 fw-bold">Raquete tênis 1</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Raquete tenis 3.jpg" alt="Raquete 3">
+                                    <h4 class="mt-3 fw-bold">Raquete tênis 2</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Raquete tenis 4.jpeg" alt="Raquete 4">
+                                    <h4 class="mt-3 fw-bold">Raquete tênis 3</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Raquete tenis de mesa 1.jpg" alt="Raquete 5">
+                                    <h4 class="mt-3 fw-bold">Raquete tênis de mesa 2</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <img class="d-block w-100 rounded" src="./content/Raquete tenis de mesa 2.jpeg" alt="Raquete 6">
+                                    <h4 class="mt-3 fw-bold">Raquete tênis de mesa 3</h4>
+                                    <a class="btn w-100 fw-bold mt-3" href=".">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <div class="row mb-3">
+                    <h1 class="title h1 text-center">
+                        <i class="bi bi-chat"></i>
+                        Fale conosco!
+                    </h1>
+                </div>
+                <div class="row">
+                    <div class="col-7">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label" for="nome">
+                                    Seu nome:
+                                </label>
+                                <input id="nome" class="form-control" type="text" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="telefone">
+                                    Seu telefone:
+                                </label>
+                                <input id="telefone" class="form-control" type="tel" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="email">
+                                    Seu e-mail:
+                                </label>
+                                <input id="email" class="form-control" type="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="mensagem">
+                                    Sua mensagem:
+                                </label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button class="btn fw-bold w-100 mb-3" type="submit">
+                                Enviar
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-5">
+                        <div>
+                            <h4 class="w-100 fw-bold">
+                                Nossas redes sociais
+                            </h4>
+                            <ul id="redes-sociais" class="d-flex">
+                                <li>
+                                    <a href=".">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=".">
+                                        <i class="bi bi-instagram me-2 ms-2"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=".">
+                                        <i class="bi bi-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul id="contato-lista" class="fs-5 p-0">
+                                <li class="mb-2">
+                                    Promoções
+                                    <i class="bi bi-check-circle-fill ms-1"></i>
+                                </li>
+                                <li class="mb-2">
+                                    Eventos
+                                    <i class="bi bi-check-circle-fill ms-1"></i>
+                                </li>
+                                <li>
+                                    Novidades
+                                    <i class="bi bi-check-circle-fill ms-1"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy;Esports.com 2025 - Todos os direitos reservados
+    </footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
